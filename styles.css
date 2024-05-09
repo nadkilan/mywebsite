@@ -1,0 +1,73 @@
+/* Header styles */
+
+header {
+    border-bottom: 1px solid #ddd;
+}
+
+nav ul {
+    margin-bottom: 20px;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #707070;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Body styles */
+
+body {
+    color: rgb(29, 29, 29);
+    text-align: justify;
+    margin-left: 256px;
+    margin-right: 256px;
+    margin-top: 64px;
+    margin-bottom: 64px;
+}
+
+.blog_item {
+    margin-top: 34px;
+    cursor: pointer;
+}
+
+.blog_item h2 {
+    font-size: 18px;
+    font-weight: normal;
+    transition: border-bottom 0.3s ease;
+    border-bottom: 1px solid transparent;
+}
+
+.blog_item:hover h2 {
+    text-decoration: underline;
+}
+
+.blog_item p {
+    font-style: italic;
+    color: #5a5a5a;
+    font-size: 14px;
+}
+
+.card:hover {
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+}
+
+/* Styles for text page */
+.title {
+    font-size: 30px;
+    margin-top: 8vh;
+    transform: translateY(-50%);
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+}
